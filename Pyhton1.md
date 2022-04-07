@@ -5,7 +5,7 @@ Crie um novo arquivo com o username e grave todos os nomes dos repositórios no 
 
 ## Código
 O código abaixo importa a biblioteca "requests" e "json". Por meio da primeira, me conectei à base de dados do Github através do comando GET, e raspei todos os repositórios associados a um respectivo nome buscado.
-Os valores foram retornados dentro de um dicionário, o qual é inserido, de forma organizada, em uma lista.
+Os valores foram retornados dentro de um dicionário, o qual é inserido em uma lista na ordem como estão dispostos no perfil.
 Na sequência, criei uma variável do tipo input para que o usuário possa buscar o participante. Todos os valores retornados na função get_project são gravados, por intermédio da biblioteca "json", automaticamente, em um arquivo json assim que o nome do participante é inserido, o qual é salvo com o nome do participante que o usuário inseriu no input.
 
 ``` python

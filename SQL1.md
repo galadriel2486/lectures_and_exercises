@@ -1,4 +1,4 @@
-# Exercicio 1
+# Questão
 Em anexo há um arquivo com diversas informações de jogadores.
 Cada linha contém a informação de salário do jogador em uma determinada temporada, então é possivel que existam várias linhas para o mesmo jogador.
 Você deverá modelar um banco de dados de forma que essas informações sejam guardadas de forma mais concisa. Ex: Faz sentido eu ter uma tabela com os salários dos jogadores e uma tabela com as informações do jogador em si? Faz sentido criar uma tabela com todos os times?

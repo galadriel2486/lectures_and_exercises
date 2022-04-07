@@ -4,10 +4,9 @@ Para listar os repositorios de um usuário a seguinte URL pode ser chamada: http
 Crie um novo arquivo com o username e grave todos os nomes dos repositórios no arquivo.
 
 ## Código
-O código abaixo importa a biblioteca requests e json. A primeira se conecta à base de dados do github por meio do comando GET, e raspa todos os projetos associados a um respectivo nome buscado.
-Ela retorna todos os valores, referentes aos projetos, dentro de um dicionário, o qual é inserido, de forma organizada, em uma lista.
-Na sequência, criei uma variável do tipo input para que o usuário possa buscar o participante. Todos os valores retornados na função get_project são gravados, automaticamente, em um json assim que o nome do participante é inserido.
-Esse json é gravado como um arquivo com o nome do participante que o usuário inseriu no input.
+O código abaixo importa a biblioteca "requests" e "json". Por meio da primeira, me conectei à base de dados do Github através do comando GET, e raspei todos os repositórios associados a um respectivo nome buscado.
+Os valores foram retornados dentro de um dicionário, o qual é inserido, de forma organizada, em uma lista.
+Na sequência, criei uma variável do tipo input para que o usuário possa buscar o participante. Todos os valores retornados na função get_project são gravados, por intermédio da biblioteca "json", automaticamente, em um arquivo json assim que o nome do participante é inserido, o qual é salvo com o nome do participante que o usuário inseriu no input.
 
 ``` python
 """Import libraries."""
